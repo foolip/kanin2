@@ -1,16 +1,10 @@
-<HTML>
-<!-- #include file="../kanin2.css" -->
-<HEAD><TITLE>Skjuta Kanin II: Kaninernas Hämnd (Uppdrag II)</TITLE>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<TITLE>Skjuta Kanin II: Kaninernas Hämnd (Uppdrag II)</TITLE>
+<link rel="stylesheet" href="../kanin2.css">
 <SCRIPT LANGUAGE="JavaScript">
-<%
-Dim bana1
-bana1 = Request.Querystring("bana1")
-If bana1 = "ja" Then
-Else
-%>
-alert('Du måste spela Uppdrag I först!');
-document.location='http://www.gratiswebplats.nu/phulip/';
-<%End If%>
 hor=0;
 ver=0;
 blodgrupp=0;
