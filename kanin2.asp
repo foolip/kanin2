@@ -1,25 +1,25 @@
 <HTML>
 <!-- #include file="kanin2.css" -->
 <HEAD>
-<TITLE>Skjuta Kanin II: Kaninernas Hämnd</TITLE>
+<TITLE>Skjuta Kanin II: Kaninernas HÃ¤mnd</TITLE>
 </HEAD>
 <BODY>
 <BGSOUND SRC="kanin2.mid" LOOP=1 ID=bgsound>
 <TABLE ID="tabellen" BORDER=1 BORDERCOLOR="#FFFFFF" CELLSPACING=0 CELLPADDING=10 STYLE="position:absolute;top:0px;left:0px;Width:502px;Height:502px;Cursor:crosshair">
 <TR><TD VALIGN=top STYLE="Text-align:left;Z-index:0">
-<FONT STYLE="Font-size:12px;Font-weight:Bold"><CENTER>Kaniner! Res er mot förtyckarna!</CENTER></FONT>
-<BR>Mänskligheten gått för långt! I alla tider har människorna kallblodigt mördat oss kaniner. De har t o m  haft mage att göra underhållning av det!
-<BR>Sveriges regering har beslutat att utrota kaninerna som art. De har tillsatt en elitstyrka för uppgiften, och uppmanar allmänheten att döda varje kanin de ser.
-<BR>Kaninfientliga affischer sätts upp på gator och torg. Stopppa galenskapen!
-<BR>Statens mördare tränas i en villa på landsbygden utanför Stockholm. Ditt uppdrag som kanin blir att inta huset och tillintetgöra alla mördare och deras ledare.
-<BR>Uppdraget är indelat i flera nivåer. Du får all information du behöver innan varje nivå. Vår överlevnad beror på dig. Må den allsmäktiga moroten vara dig nådig.
+<FONT STYLE="Font-size:12px;Font-weight:Bold"><CENTER>Kaniner! Res er mot fÃ¶rtyckarna!</CENTER></FONT>
+<BR>MÃ¤nskligheten gÃ¥tt fÃ¶r lÃ¥ngt! I alla tider har mÃ¤nniskorna kallblodigt mÃ¶rdat oss kaniner. De har t o m  haft mage att gÃ¶ra underhÃ¥llning av det!
+<BR>Sveriges regering har beslutat att utrota kaninerna som art. De har tillsatt en elitstyrka fÃ¶r uppgiften, och uppmanar allmÃ¤nheten att dÃ¶da varje kanin de ser.
+<BR>Kaninfientliga affischer sÃ¤tts upp pÃ¥ gator och torg. Stopppa galenskapen!
+<BR>Statens mÃ¶rdare trÃ¤nas i en villa pÃ¥ landsbygden utanfÃ¶r Stockholm. Ditt uppdrag som kanin blir att inta huset och tillintetgÃ¶ra alla mÃ¶rdare och deras ledare.
+<BR>Uppdraget Ã¤r indelat i flera nivÃ¥er. Du fÃ¥r all information du behÃ¶ver innan varje nivÃ¥. VÃ¥r Ã¶verlevnad beror pÃ¥ dig. MÃ¥ den allsmÃ¤ktiga moroten vara dig nÃ¥dig.
 <BR>
 <BR>
 <CENTER>
 <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
-<TR><TD><IMG SRC="hatpropaganda.gif" BORDER=1 STYLE="border-width:5px" onMouseOver="status='Människornas hatpropaganda';" onMouseOut="status='';"></TD><TD WIDTH=20></TD><TD><IMG SRC="planering.gif" BORDER=1 STYLE="border-width:5px" onMouseOver="status='Mördarna smider lömska planer';" onMouseOut="status='';"></TD></TR>
+<TR><TD><IMG SRC="hatpropaganda.gif" BORDER=1 STYLE="border-width:5px" onMouseOver="status='MÃ¤nniskornas hatpropaganda';" onMouseOut="status='';"></TD><TD WIDTH=20></TD><TD><IMG SRC="planering.gif" BORDER=1 STYLE="border-width:5px" onMouseOver="status='MÃ¶rdarna smider lÃ¶mska planer';" onMouseOut="status='';"></TD></TR>
 </TABLE>
-<BR><B>Tryck på den beväpnade kaninen för att börja.<BR>OBS! Vänta tills alla filer är laddade!</B>
+<BR><B>Tryck pÃ¥ den bevÃ¤pnade kaninen fÃ¶r att bÃ¶rja.<BR>OBS! VÃ¤nta tills alla filer Ã¤r laddade!</B>
 <BR><BR><IMG SRC="argkanin.gif" onClick="parent.location='bana1/bana1.asp';"></CENTER>
 </TD></TR>
 </TABLE>

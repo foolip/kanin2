@@ -1,6 +1,6 @@
 <HTML>
 <!-- #include file="../kanin2.css" -->
-<HEAD><TITLE>Skjuta Kanin II: Kaninernas Hämnd (Uppdrag II)</TITLE>
+<HEAD><TITLE>Skjuta Kanin II: Kaninernas HÃ¤mnd (Uppdrag II)</TITLE>
 <SCRIPT LANGUAGE="JavaScript">
 <%
 Dim bana1
@@ -8,7 +8,7 @@ bana1 = Request.Querystring("bana1")
 If bana1 = "ja" Then
 Else
 %>
-alert('Du måste spela Uppdrag I först!');
+alert('Du mÃ¥ste spela Uppdrag I fÃ¶rst!');
 document.location='http://www.gratiswebplats.nu/phulip/';
 <%End If%>
 hor=0;
@@ -110,7 +110,7 @@ hor=event.x-25
 ver=event.y-25
 </SCRIPT>
 </HEAD>
-<BODY onLoad="alert('Så här skuter du med maskingeväret: tryck en gång för att börja skjuta, tryck igen för att sluta.');">
+<BODY onLoad="alert('SÃ¥ hÃ¤r skuter du med maskingevÃ¤ret: tryck en gÃ¥ng fÃ¶r att bÃ¶rja skjuta, tryck igen fÃ¶r att sluta.');">
 <BGSOUND ID="kanal1">
 <BGSOUND ID="kanal2">
 <BGSOUND ID="kanal3">
@@ -125,10 +125,10 @@ ver=event.y-25
 <TABLE ID="tabellen" BORDER=1 BORDERCOLOR="#FFFFFF" CELLSPACING=0 CELLPADDING=10 STYLE="position:absolute;top:0px;left:0px;Width:502px;Height:502px;Cursor:crosshair">
 <TR><TD VALIGN=top STYLE="Text-align:left;Z-index:0">
 <FONT STYLE="Font-size:12px;Font-weight:Bold"><CENTER>Uppdrag II</CENTER></FONT>
-<BR>Grattis, du har intagit huset! Men än är det för tidigt att fira, emellan dig och mördarnas ledare finns en lång korridor. I denna koridor bor mördarna så du kommer att möta hårt motstånd. Men misströsta ej, jag har en lösning.
-<BR>Det inte räcker med ett skott för att få död på mördarna. Därför utrustas du med ett helautomatiskt maskingevär som borde sätta stopp människorna.
+<BR>Grattis, du har intagit huset! Men Ã¤n Ã¤r det fÃ¶r tidigt att fira, emellan dig och mÃ¶rdarnas ledare finns en lÃ¥ng korridor. I denna koridor bor mÃ¶rdarna sÃ¥ du kommer att mÃ¶ta hÃ¥rt motstÃ¥nd. Men misstrÃ¶sta ej, jag har en lÃ¶sning.
+<BR>Det inte rÃ¤cker med ett skott fÃ¶r att fÃ¥ dÃ¶d pÃ¥ mÃ¶rdarna. DÃ¤rfÃ¶r utrustas du med ett helautomatiskt maskingevÃ¤r som borde sÃ¤tta stopp mÃ¤nniskorna.
 <BR>Som vanligt, ta det varligt. Viva la revolution!
-<BR><BR><CENTER><B>Fyll den här killen med bly för att börja.<BR>OBS! Vänta tills alla filer är laddade</B>
+<BR><BR><CENTER><B>Fyll den hÃ¤r killen med bly fÃ¶r att bÃ¶rja.<BR>OBS! VÃ¤nta tills alla filer Ã¤r laddade</B>
 </CENTER>
 </TD></TR>
 </TABLE>

@@ -1,6 +1,6 @@
 <HTML>
 <!-- #include file="../kanin2.css" -->
-<HEAD><TITLE>Skjuta Kanin II: Kaninernas Hämnd (Uppdrag I)</TITLE>
+<HEAD><TITLE>Skjuta Kanin II: Kaninernas HÃ¤mnd (Uppdrag I)</TITLE>
 <SCRIPT LANGUAGE="JavaScript">
 kanal=0;
 function playSound(fil) {
@@ -44,7 +44,7 @@ if(sek<10){sek="0"+sek;}
 tid=min+":"+sek}
 statusFalt();
 if(tid!="0:00"){
-//ÄNDRA TILL 1000!!!
+//Ã„NDRA TILL 1000!!!
 setTimeout("taTid();", 10)
 }
 else{sluta();}
@@ -54,12 +54,12 @@ status="Tid kvar: "+tid+"     Mordoffer: "+folk;
 }
 function starta() {
 farSkjuta=1;
-//ÄNDRA TILL NOLL!
+//Ã„NDRA TILL NOLL!
 folk=49;
 min=1;
 sek=30;
 tid="1:30";
-alert('Skjut 50 människor på 1:30 minuter!');
+alert('Skjut 50 mÃ¤nniskor pÃ¥ 1:30 minuter!');
 bg.style.visibility='visible';
 omladd.style.visibility='visible';
 visaFolk();
@@ -169,12 +169,12 @@ blod1.style.visibility='hidden';
 blod2.style.visibility='hidden';
 blod3.style.visibility='hidden';
 if(folk<50){
-igen=confirm('Skandal! Du hann inte skjuta ihjäl alla. Vill du försöka igen?');
+igen=confirm('Skandal! Du hann inte skjuta ihjÃ¤l alla. Vill du fÃ¶rsÃ¶ka igen?');
 if(igen){starta();}
 else{window.close();}
 }
 if(folk>=50){
-alert('Du klarade det! Gör dig beredd för Uppdrag II');
+alert('Du klarade det! GÃ¶r dig beredd fÃ¶r Uppdrag II');
 parent.location='../bana2/bana2.asp?bana1=ja';
 }
 }
@@ -247,10 +247,10 @@ setTimeout("eval(farSkjuta=1);", 800);
 <TABLE ID="tabellen" BORDER=1 BORDERCOLOR="#FFFFFF" CELLSPACING=0 CELLPADDING=10 STYLE="position:absolute;top:0px;left:0px;Width:502px;Height:502px;Cursor:crosshair">
 <TR><TD VALIGN=top STYLE="Text-align:left;Z-index:0">
 <FONT STYLE="Font-size:12px;Font-weight:Bold"><CENTER>Uppdrag I</CENTER></FONT>
-<BR>Ditt första uppdrag blir att inte det hus som mördarna tränas i. Det ligger långt ifrån andra mänskliga bebyggelser så det finns ingen anledning att göra det i löndom.
-<BR>Räkna med att möta hårt motstånd, även om människorna inte är beredda på vår ankomst. Du beväpnas till en början med en halvautomatisk pistol. Vi slår till i skymningen då människorna är lite trötta. Försök att hålla dig vid liv, om du skulle omkomma är det kört för kaninarten.
-<BR>Lycka till och må den allsmäktiga moroten vara med dig. Krossa Tyranneriet!
-<BR><BR><CENTER><B>Skjut ihjäl den här mördaren för att börja.<BR>OBS! Vänta tills alla filer är laddade</B>
+<BR>Ditt fÃ¶rsta uppdrag blir att inte det hus som mÃ¶rdarna trÃ¤nas i. Det ligger lÃ¥ngt ifrÃ¥n andra mÃ¤nskliga bebyggelser sÃ¥ det finns ingen anledning att gÃ¶ra det i lÃ¶ndom.
+<BR>RÃ¤kna med att mÃ¶ta hÃ¥rt motstÃ¥nd, Ã¤ven om mÃ¤nniskorna inte Ã¤r beredda pÃ¥ vÃ¥r ankomst. Du bevÃ¤pnas till en bÃ¶rjan med en halvautomatisk pistol. Vi slÃ¥r till i skymningen dÃ¥ mÃ¤nniskorna Ã¤r lite trÃ¶tta. FÃ¶rsÃ¶k att hÃ¥lla dig vid liv, om du skulle omkomma Ã¤r det kÃ¶rt fÃ¶r kaninarten.
+<BR>Lycka till och mÃ¥ den allsmÃ¤ktiga moroten vara med dig. Krossa Tyranneriet!
+<BR><BR><CENTER><B>Skjut ihjÃ¤l den hÃ¤r mÃ¶rdaren fÃ¶r att bÃ¶rja.<BR>OBS! VÃ¤nta tills alla filer Ã¤r laddade</B>
 <BR><BR><BR><IMG SRC="jagare.gif" ID="startjagare" STYLE="visibility:visible">
 </CENTER>
 </TD></TR>
