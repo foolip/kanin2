@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<TITLE>Skjuta Kanin II: Kaninernas Hämnd (Uppdrag I)</TITLE>
+<title>Skjuta Kanin II: Kaninernas Hämnd (Uppdrag I)</title>
 <link rel="stylesheet" href="../kanin2.css">
-<SCRIPT LANGUAGE="JavaScript">
+<script language="javascript">
 kanal=0;
 function playSound(fil) {
 kanal++;
@@ -181,116 +181,116 @@ alert('Du klarade det! Gör dig beredd för Uppdrag II');
 parent.location='../bana2/bana2.html';
 }
 }
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" EVENT="onmousedown" FOR="startjagare">
+</script>
+<script language="javascript" event="onmousedown" for="startjagare">
 playSound('traff.wav');
 startjagare.style.visibility='hidden';
 setTimeout("starta();", 500);
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=fonster1>
+</script>
+<script language="javascript" event=onmousedown for=fonster1>
 traff('fonster1');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=fonster2>
+</script>
+<script language="javascript" event=onmousedown for=fonster2>
 traff('fonster2');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=fonster3>
+</script>
+<script language="javascript" event=onmousedown for=fonster3>
 traff('fonster3');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=fonster4>
+</script>
+<script language="javascript" event=onmousedown for=fonster4>
 traff('fonster4');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=fonster5>
+</script>
+<script language="javascript" event=onmousedown for=fonster5>
 traff('fonster5');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=dorr>
+</script>
+<script language="javascript" event=onmousedown for=dorr>
 traff('dorr');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=talt>
+</script>
+<script language="javascript" event=onmousedown for=talt>
 traff('talt');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=bg>
+</script>
+<script language="javascript" event=onmousedown for=bg>
 if(patroner>0 & farSkjuta==1){
 playSound('miss.wav');
 gomPatron();
 }
 else if(farSkjuta==1){playSound('click.wav');}
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=blod1>
+</script>
+<script language="javascript" event=onmousedown for=blod1>
 playSound('miss.wav');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=blod2>
+</script>
+<script language="javascript" event=onmousedown for=blod2>
 playSound('miss.wav');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=blod3>
+</script>
+<script language="javascript" event=onmousedown for=blod3>
 playSound('miss.wav');
-</SCRIPT>
-<SCRIPT LANGUAGE="JavaScript" event=onmousedown for=omladd>
+</script>
+<script language="javascript" event=onmousedown for=omladd>
 if(farSkjuta==1){
 farSkjuta=0;
 playSound('ladda.wav');
 setTimeout("visaPatroner();", 800);
 setTimeout("eval(farSkjuta=1);", 800);
 }
-</SCRIPT>
-</HEAD>
-<BODY>
-<BGSOUND ID="kanal1">
-<BGSOUND ID="kanal2">
-<BGSOUND ID="kanal3">
-<BGSOUND ID="kanal4">
-<BGSOUND ID="kanal5">
-<BGSOUND ID="kanal6">
-<BGSOUND ID="kanal7">
-<BGSOUND ID="kanal8">
-<BGSOUND SRC="bana1.mid" LOOP=infinite ID=bgsound>
-<BGSOUND SRC="traff.wav" VOLUME="-10000" LOOP=1>
-<BGSOUND SRC="miss.wav" VOLUME="-10000" LOOP=1>
-<BGSOUND SRC="ladda.wav" VOLUME="-10000" LOOP=1>
-<BGSOUND SRC="click.wav" VOLUME="-10000" LOOP=1>
-<TABLE ID="tabellen" BORDER=1 BORDERCOLOR="#FFFFFF" CELLSPACING=0 CELLPADDING=10 STYLE="position:absolute;top:0px;left:0px;Width:502px;Height:502px;Cursor:crosshair">
-<TR><TD VALIGN=top STYLE="Text-align:left;Z-index:0">
-<FONT STYLE="Font-size:12px;Font-weight:Bold"><CENTER>Uppdrag I</CENTER></FONT>
-<BR>Ditt första uppdrag blir att inte det hus som mördarna tränas i. Det ligger långt ifrån andra mänskliga bebyggelser så det finns ingen anledning att göra det i löndom.
-<BR>Räkna med att möta hårt motstånd, även om människorna inte är beredda på vår ankomst. Du beväpnas till en början med en halvautomatisk pistol. Vi slår till i skymningen då människorna är lite trötta. Försök att hålla dig vid liv, om du skulle omkomma är det kört för kaninarten.
-<BR>Lycka till och må den allsmäktiga moroten vara med dig. Krossa Tyranneriet!
-<BR><BR><CENTER><B>Skjut ihjäl den här mördaren för att börja.<BR>OBS! Vänta tills alla filer är laddade</B>
-<BR><BR><BR><IMG SRC="jagare.gif" ID="startjagare" STYLE="visibility:visible">
-</CENTER>
-</TD></TR>
-</TABLE>
-<IMG SRC="bana1bg.gif" ID="bg" STYLE="visibility:hidden;position:absolute;left:1px;top:1px;z-index:0">
-<IMG SRC="fonster1.gif" ID="fonster1" STYLE="visibility:hidden;position:absolute;left:104;top:80;z-index:1">
-<IMG SRC="fonster2.gif" ID="fonster2" STYLE="visibility:hidden;position:absolute;left:82;top:194;z-index:1">
-<IMG SRC="fonster3.gif" ID="fonster3" STYLE="visibility:hidden;position:absolute;left:163;top:191;z-index:1">
-<IMG SRC="fonster4.gif" ID="fonster4" STYLE="visibility:hidden;position:absolute;left:273;top:199;z-index:1">
-<IMG SRC="fonster5.gif" ID="fonster5" STYLE="visibility:hidden;position:absolute;left:205;top:328;z-index:1">
-<IMG SRC="dorr.gif" ID="dorr" STYLE="visibility:hidden;position:absolute;left:79;top:351;z-index:1">
-<IMG SRC="talt.gif" ID="talt" STYLE="visibility:hidden;position:absolute;left:389;top:311;z-index:1">
-<IMG SRC="patron.gif" ID="p12" STYLE="visibility:hidden;position:absolute;top:468;left:353;z-index:3">
-<IMG SRC="patron.gif" ID="p11" STYLE="visibility:hidden;position:absolute;top:468;left:365;z-index:3">
-<IMG SRC="patron.gif" ID="p10" STYLE="visibility:hidden;position:absolute;top:468;left:377;z-index:3">
-<IMG SRC="patron.gif" ID="p9" STYLE="visibility:hidden;position:absolute;top:468;left:389;z-index:3">
-<IMG SRC="patron.gif" ID="p8" STYLE="visibility:hidden;position:absolute;top:468;left:401;z-index:3">
-<IMG SRC="patron.gif" ID="p7" STYLE="visibility:hidden;position:absolute;top:468;left:413;z-index:3">
-<IMG SRC="patron.gif" ID="p6" STYLE="visibility:hidden;position:absolute;top:468;left:425;z-index:3">
-<IMG SRC="patron.gif" ID="p5" STYLE="visibility:hidden;position:absolute;top:468;left:437;z-index:3">
-<IMG SRC="patron.gif" ID="p4" STYLE="visibility:hidden;position:absolute;top:468;left:449;z-index:3">
-<IMG SRC="patron.gif" ID="p3" STYLE="visibility:hidden;position:absolute;top:468;left:461;z-index:3">
-<IMG SRC="patron.gif" ID="p2" STYLE="visibility:hidden;position:absolute;top:468;left:473;z-index:3">
-<IMG SRC="patron.gif" ID="p1" STYLE="visibility:hidden;position:absolute;top:468;left:485;z-index:3">
-<IMG ID="blod1" STYLE="visibility:hidden;position:absolute;top:0px;left:0px;Z-index:2">
-<IMG ID="blod2" STYLE="visibility:hidden;position:absolute;top:0px;left:0px;Z-index:2">
-<IMG SRC="blod3.gif" ID="blod3" STYLE="visibility:hidden;position:absolute;top:0px;left:0px;Z-index:2">
-<IMG SRC="blod11.gif" STYLE="visibility:hidden;Z-index:0">
-<IMG SRC="blod12.gif" STYLE="visibility:hidden;Z-index:0">
-<IMG SRC="blod13.gif" STYLE="visibility:hidden;Z-index:0">
-<IMG SRC="blod21.gif" STYLE="visibility:hidden;Z-index:0">
-<IMG SRC="blod22.gif" STYLE="visibility:hidden;Z-index:0">
-<IMG SRC="blod23.gif" STYLE="visibility:hidden;Z-index:0">
-<TABLE ID="omladd" BORDER=1 CELLPADDING=0 CELLSPACING=0 BORDERCOLOR="#FFFFFF" STYLE="visibility:hidden;position:absolute;top:501;left:0;Cursor:crosshair;Z-index:1">
-<TR><TD WIDTH=500 HEIGHT=15 onMouseOver="this.className='tdColorOn'" onMouseOut="this.className='tdColorOff'">
+</script>
+</head>
+<body>
+<bgsound id="kanal1">
+<bgsound id="kanal2">
+<bgsound id="kanal3">
+<bgsound id="kanal4">
+<bgsound id="kanal5">
+<bgsound id="kanal6">
+<bgsound id="kanal7">
+<bgsound id="kanal8">
+<bgsound src="bana1.mid" loop=infinite id=bgsound>
+<bgsound src="traff.wav" volume="-10000" loop=1>
+<bgsound src="miss.wav" volume="-10000" loop=1>
+<bgsound src="ladda.wav" volume="-10000" loop=1>
+<bgsound src="click.wav" volume="-10000" loop=1>
+<table id="tabellen" border=1 bordercolor="#ffffff" cellspacing=0 cellpadding=10 style="position:absolute;top:0px;left:0px;width:502px;height:502px;cursor:crosshair">
+<tr><td valign=top style="text-align:left;z-index:0">
+<font style="font-size:12px;font-weight:bold"><center>Uppdrag I</center></font>
+<br>Ditt första uppdrag blir att inte det hus som mördarna tränas i. Det ligger långt ifrån andra mänskliga bebyggelser så det finns ingen anledning att göra det i löndom.
+<br>Räkna med att möta hårt motstånd, även om människorna inte är beredda på vår ankomst. Du beväpnas till en början med en halvautomatisk pistol. Vi slår till i skymningen då människorna är lite trötta. Försök att hålla dig vid liv, om du skulle omkomma är det kört för kaninarten.
+<br>Lycka till och må den allsmäktiga moroten vara med dig. Krossa Tyranneriet!
+<br><br><center><b>Skjut ihjäl den här mördaren för att börja.<br>OBS! Vänta tills alla filer är laddade</b>
+<br><br><br><img src="jagare.gif" id="startjagare" style="visibility:visible">
+</center>
+</td></tr>
+</table>
+<img src="bana1bg.gif" id="bg" style="visibility:hidden;position:absolute;left:1px;top:1px;z-index:0">
+<img src="fonster1.gif" id="fonster1" style="visibility:hidden;position:absolute;left:104;top:80;z-index:1">
+<img src="fonster2.gif" id="fonster2" style="visibility:hidden;position:absolute;left:82;top:194;z-index:1">
+<img src="fonster3.gif" id="fonster3" style="visibility:hidden;position:absolute;left:163;top:191;z-index:1">
+<img src="fonster4.gif" id="fonster4" style="visibility:hidden;position:absolute;left:273;top:199;z-index:1">
+<img src="fonster5.gif" id="fonster5" style="visibility:hidden;position:absolute;left:205;top:328;z-index:1">
+<img src="dorr.gif" id="dorr" style="visibility:hidden;position:absolute;left:79;top:351;z-index:1">
+<img src="talt.gif" id="talt" style="visibility:hidden;position:absolute;left:389;top:311;z-index:1">
+<img src="patron.gif" id="p12" style="visibility:hidden;position:absolute;top:468;left:353;z-index:3">
+<img src="patron.gif" id="p11" style="visibility:hidden;position:absolute;top:468;left:365;z-index:3">
+<img src="patron.gif" id="p10" style="visibility:hidden;position:absolute;top:468;left:377;z-index:3">
+<img src="patron.gif" id="p9" style="visibility:hidden;position:absolute;top:468;left:389;z-index:3">
+<img src="patron.gif" id="p8" style="visibility:hidden;position:absolute;top:468;left:401;z-index:3">
+<img src="patron.gif" id="p7" style="visibility:hidden;position:absolute;top:468;left:413;z-index:3">
+<img src="patron.gif" id="p6" style="visibility:hidden;position:absolute;top:468;left:425;z-index:3">
+<img src="patron.gif" id="p5" style="visibility:hidden;position:absolute;top:468;left:437;z-index:3">
+<img src="patron.gif" id="p4" style="visibility:hidden;position:absolute;top:468;left:449;z-index:3">
+<img src="patron.gif" id="p3" style="visibility:hidden;position:absolute;top:468;left:461;z-index:3">
+<img src="patron.gif" id="p2" style="visibility:hidden;position:absolute;top:468;left:473;z-index:3">
+<img src="patron.gif" id="p1" style="visibility:hidden;position:absolute;top:468;left:485;z-index:3">
+<img id="blod1" style="visibility:hidden;position:absolute;top:0px;left:0px;z-index:2">
+<img id="blod2" style="visibility:hidden;position:absolute;top:0px;left:0px;z-index:2">
+<img src="blod3.gif" id="blod3" style="visibility:hidden;position:absolute;top:0px;left:0px;z-index:2">
+<img src="blod11.gif" style="visibility:hidden;z-index:0">
+<img src="blod12.gif" style="visibility:hidden;z-index:0">
+<img src="blod13.gif" style="visibility:hidden;z-index:0">
+<img src="blod21.gif" style="visibility:hidden;z-index:0">
+<img src="blod22.gif" style="visibility:hidden;z-index:0">
+<img src="blod23.gif" style="visibility:hidden;z-index:0">
+<table id="omladd" border=1 cellpadding=0 cellspacing=0 bordercolor="#ffffff" style="visibility:hidden;position:absolute;top:501;left:0;cursor:crosshair;z-index:1">
+<tr><td width=500 height=15 onmouseover="this.classname='tdcoloron'" onmouseout="this.classname='tdcoloroff'">
 - Ladda Om -
-</TD></TR>
-</TABLE>
-</BODY>
-</HTML>
+</td></tr>
+</table>
+</body>
+</html>
